@@ -3,6 +3,7 @@
 :root {
   --main-color: #141024;
   --main-color-contrast: #d52027;
+  --main-color-contrast-hover: #FF9E89;
   --text-secondary-color: rgba(20, 16, 36, 0.7);
   --bg-light: #f9f9f9;
   --section-offset-padding: 120px;
