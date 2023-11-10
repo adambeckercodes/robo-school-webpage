@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
   <header class="header">
     <div class="container header__container flex">
@@ -59,10 +61,11 @@
       </div>
     </section>
 
-    <section class="about section-offset">
+    <section class="about">
       <div class="container about__container">
         <p class="about__descr">
-          <span>Robo School</span>&nbsp;&mdash; учреждение для формирования кадрового педагогического резерва в сфере робототехникии программирования
+          <span>Robo School</span>&nbsp;&mdash; учреждение для формирования кадрового педагогического резерва в сфере
+          робототехникии программирования
         </p>
 
         <ul class="about__list list-reset flex">
@@ -101,6 +104,141 @@
         </ul>
       </div>
     </section>
+
+    <section class="offer">
+      <div class="container offer__container">
+        <h2 class="section-title offer__title">
+          Что вы получите после курса
+        </h2>
+        <ul class="offer__list list-reset flex">
+          <li class="offer__item">
+            <h4 class="offer__item-title">
+              Удостоверение
+            </h4>
+            <p class="offer__item-descr">
+              Дающее право преподавать робототехнику для детей 6-12 лет в&nbsp;образовательных учреждениях
+            </p>
+          </li>
+          <li class="offer__item">
+            <h4 class="offer__item-title">
+              Знания
+            </h4>
+            <p class="offer__item-descr">
+              По&nbsp;основам разработки учебно-методических комплексов
+              по&nbsp;робототехнике и&nbsp;программированию
+            </p>
+          </li>
+          <li class="offer__item">
+            <h4 class="offer__item-title">
+              Практику
+            </h4>
+            <p class="offer__item-descr">
+              Возможность пройти практику по&nbsp;преподаванию робототехники на&nbsp;базе R:ED LAB (в&nbsp;оффлайн или
+              онлайн формате)
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- <section class="coaches"></section> -->
+
+    <section class="package">
+      <div class="container package__container">
+        <h2 class="section-title package__title">
+          Выберите нужный пакет
+        </h2>
+
+        <ul class="package__list list-reset flex">
+          <li class="package__card flex">
+            <h4 class="package__card-title">
+              – PRO –
+            </h4>
+            <div class="package__deal">
+              <span class="package__price">
+                20.000 ₽
+              </span>
+              <p class="package__descr">
+                УМК по робототетхнике и программированию
+              </p>
+            </div>
+            <buttton class="btn package__btn">
+              Оставить заявку
+            </buttton>
+          </li>
+          <li class="package__card flex">
+            <h4 class="package__card-title">
+              – ROBO –
+            </h4>
+            <div class="package__deal">
+              <span class="package__price">
+                15.000 ₽
+              </span>
+              <p class="package__descr">
+                УМК по робототетхнике 
+              </p>
+            </div>
+            <buttton class="btn package__btn">
+              Оставить заявку
+            </buttton>
+          </li>
+          <li class="package__card flex">
+            <h4 class="package__card-title">
+              – PROG –
+            </h4>
+            <div class="package__deal">
+              <span class="package__price">
+                10.000 ₽
+              </span>
+              <p class="package__descr">
+                УМК по программированию
+              </p>
+            </div>
+            <buttton class="btn package__btn">
+              Оставить заявку
+            </buttton>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container subscribe__container flex">
+        <div class="subscribe__wrapper">
+          <h3 class="subscribe__title">
+            Запишитесь на курс со скидкой 10%
+          </h3>
+          <p class="subscribe__descr">
+            Акция действительна до 10 марта 2022 года
+          </p>
+        </div>
+
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form flex">
+          <input type="text" name="name" id="name" placeholder="Имя" required>
+          <input type="tel" name="phone" id="phone" placeholder="Телефон" required>
+          <input type="email" name="email" id="email" placeholder="E-mail" required>
+          <button class="btn form__btn">
+            Оформить заявку
+          </button>
+        </form>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container footer__container flex">
+      <div class="logo__wrapper flex">
+        <a href="#" class="footer__logo link-reset">
+          robo.school
+        </a>
+        <span class="footer__copy">
+          &copy;&nbsp;ROBO.SCHOOL
+        </span>
+      </div>
+
+      <a class="footer__tel link-reset" href="tel:++78000001122">+7 800 000 11 22</a>
+    </div>
+  </footer>
 </body>
+
 </html>
