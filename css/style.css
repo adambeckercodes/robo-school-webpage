@@ -3,7 +3,7 @@
 :root {
   --main-color: #141024;
   --main-color-contrast: #d52027;
-  --main-color-contrast-hover: #FF9E89;
+  --main-color-contrast-hover: #ff9e89;
   --text-secondary-color: rgba(20, 16, 36, 0.7);
   --bg-light: #f9f9f9;
   --section-offset-padding: 120px;
@@ -233,6 +233,91 @@ img {
   font-weight: 400;
   line-height: 160%;
   color: var(--text-secondary-color);
+}
+
+/* COACHES */
+.swiper-wrapper {
+  margin-bottom: 60px;
+  transform: translateX(412px);
+}
+
+.coaches__card {
+  max-width: 360px;
+}
+
+.coaches__img {
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.coaches__name {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.coaches__role {
+  margin-bottom: 20px;
+  color: rgba(20, 16, 36, 0.7);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.coaches__btn {
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--main-color-contrast);
+}
+
+.coaches__swiper-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  position: static;
+  width: 360px;
+  height: 5px;
+  border-radius: 40px;
+  background: rgba(20, 16, 36, 0.08);
+}
+
+.swiper-scrollbar-drag {
+  width: 260px;
+  border-radius: 40px;
+  background: #141024;
+}
+
+.swiper__nav-wrapper {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: static;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
 }
 
 /* PACKAGE */
