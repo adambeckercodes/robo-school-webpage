@@ -1,3 +1,12 @@
+tippy("#myToolTip", {
+  content: "При наличии свободных мест",
+  arrow: false,
+  placement: "top-start",
+  animation: "fade",
+  delay: [0, 5000],
+  // theme: "light",
+});
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   spaceBetween: 40,
